@@ -72,6 +72,7 @@ $(function () {
         }
         // console.log(res.token);
         //跳转后台主页
+       localStorage.setItem("token",res.token);
        location.href="./index.html"
     }
    })
