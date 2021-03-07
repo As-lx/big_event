@@ -20,9 +20,9 @@ $(function () {
       }
     }
   })
-  getUserInfor()
+  getUserInfo()
   //获取用户信息
-  function getUserInfor() {
+  function getUserInfo() {
       $.ajax({
         method:"get",
         url:"/my/userinfo",
