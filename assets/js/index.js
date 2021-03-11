@@ -60,4 +60,5 @@ $(function () {
       layer.close(index);
     });
   })
+
 })
